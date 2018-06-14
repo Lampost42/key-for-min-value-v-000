@@ -7,6 +7,7 @@ def key_for_min_value(name_hash)
     if min == ""
       min = name
     elsif name_hash[name] < name_hash[min]
-    
-  
+      min = name
+    end
+  end
 end
